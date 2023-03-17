@@ -2,6 +2,7 @@ body {
     background-image: url('/img/background.jpg');
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Gowun Batang';
 }
 
 .box {
@@ -38,6 +39,11 @@ nav li {
     padding-top: 15px;
 }
 
+li:hover {
+    color: green;
+    font-weight: bold;
+}
+
 .d2 {
     width: 1200px;
     height: 700px;
@@ -64,6 +70,11 @@ article {
     margin: 20px;
     margin-top: 10px;
     padding-left: 20px;
+}
+
+article:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
  
 aside {
@@ -102,5 +113,10 @@ footer p {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    color: green;
 }
 
