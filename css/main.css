@@ -1,5 +1,5 @@
 body {
-    background-image: url('/img/background.jpg');
+    background-image: url('https://ifh.cc/g/AVFtmh.jpg');
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Gowun Batang';
@@ -39,6 +39,12 @@ nav li {
     padding-top: 15px;
 }
 
+li:hover {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .d2 {
     width: 1200px;
     height: 700px;
@@ -59,12 +65,19 @@ section h2 {
 }
 
 article {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     float: left;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
+article:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ 
 aside {
     display: inline-block;
     width: 190px;
@@ -101,5 +114,10 @@ footer p {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    color: green;
 }
 
