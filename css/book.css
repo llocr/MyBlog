@@ -8,14 +8,13 @@ body {
 .box {
     width: 100%;
     margin: auto;
-    /* background-color: black; */
 }
 
 header {
     background: rgba(255, 255, 255, 0.75);
     width: 1200px;
     height: 100px;
-    text-align: center;
+    text-align: center; /* 중앙 정렬 */
     margin: auto;
 }
 
@@ -27,24 +26,23 @@ nav {
     width: 1200px;
     height: 50px;
     background: rgba(128, 128, 128, 0.445);
-    margin: auto;
+    margin: auto; /* 중앙 정렬을 위해 사용 */
 }
 
 nav a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* 밑줄 지우기 */
+    color: black; /* 보라색에서 색상 변경 */
 }
 
 nav li {
-    list-style-type: none;
-    float: left;
+    list-style-type: none; /* 리스트 스타일 없애기 */
+    float: left; /* 왼쪽으로 정렬되도록 */
     width: 190px;
-    text-align: center;
-    /* border: solid 1px white; */
+    text-align: center; /* 중앙 정렬 */
     padding-top: 15px;
 }
 
-li:hover {
+li:hover { /* 마우스 올랐을 때 색상 변경, 폰트 사이즈 변경, 마우스 포인터로 변경 */
     color: green;
     font-weight: bold;
     cursor: pointer;
@@ -100,7 +98,7 @@ article img {
     width: 650px;
     height: 160px;
     margin-left: 80px;
-    text-align: justify;
+    text-align: justify; /* 양쪽 정렬*/
 }
 
 aside {
@@ -118,21 +116,21 @@ aside p {
 }
 
 aside a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* 밑줄 없애기 */
+    color: black; /* 색상 보라색에서 검정색으로 변경 */
 }
 
-aside a:hover {
+aside a:hover {  /* 마우스 올라왔을 때 글씨 색상 초록색으로 변경, 1초에 걸쳐 변화 나타남 */
     color: green;
     transition-duration: 1s;
 }
 
 footer {
-    clear: both;
+    clear: both; /* float 속성 끄기 */
     width: 1200px;
     height: 50px;
     background: rgba(128, 128, 128, 0.445);
-    margin: auto;
+    margin: auto; /* 중앙 정렬 */
 }
 
 footer p {
@@ -142,12 +140,11 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /* 밑줄 없애기 */
+    color: white; /* 색상 보라색에서 흰색으로 변경 */
 }
 
-footer a:hover {
-    transform: scale(1.1);
+footer a:hover {  /* 마우스 올라왔을 때 글씨 색상 초록색으로 변경, 1초에 걸쳐 변화 나타남 */
     color: green;
     transition-duration: 1s;
 }
