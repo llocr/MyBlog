@@ -20,7 +20,7 @@ header {
 }
 
 .d1 {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 nav {
@@ -28,6 +28,11 @@ nav {
     height: 50px;
     background: rgba(128, 128, 128, 0.445);
     margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 nav li {
@@ -54,14 +59,18 @@ li:hover {
 
 section {
     width: 990px;
-    height: 700px;
+    height: 750px;
     background: rgba(255, 255, 255, 0.75);
     float: left;
     margin-right: 20px;
 }
 
-section h2 {
+section h2,p {
     text-align: center;
+}
+
+section p {
+    color: green;
 }
 
 article {
@@ -81,13 +90,13 @@ article:hover {
 aside {
     display: inline-block;
     width: 190px;
-    height: 700px;
+    height: 750px;
     background: rgba(255, 255, 255, 0.75);
 }
 
 aside p {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 330px;
     font-size: large;
     font-weight: bold;
 }
@@ -95,6 +104,11 @@ aside p {
 aside a {
     text-decoration: none;
     color: black;
+}
+
+aside a:hover {
+    color: green;
+    transition-duration: 1s;
 }
 
 footer {
@@ -119,5 +133,6 @@ footer a {
 footer a:hover {
     transform: scale(1.1);
     color: green;
+    transition-duration: 1s;
 }
 
